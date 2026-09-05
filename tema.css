@@ -380,10 +380,12 @@ body>div.skinHeader.focuscontainer-x.skinHeader-withBackground.skinHeader-blurre
     z-index: 20 !important;
 }
 
-.cardScalable,
-.cardImageContainer {
+.cardScalable {
     position: relative;
     z-index: 1;
+}
+
+.cardImageContainer {
     border-top-right-radius: var(--theme-roundness-large);
     border-top-left-radius: var(--theme-roundness-large);
 }
@@ -403,7 +405,6 @@ body>div.skinHeader.focuscontainer-x.skinHeader-withBackground.skinHeader-blurre
 .cardOverlayContainer {
     background-color: var(--transparent-bg);
     overlay: none;
-    z-index: 5;
 }
 
 .cardScalables,
